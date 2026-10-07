@@ -16,7 +16,6 @@ Ansible role that will install, configure and runs Geth
 ### Supported Platforms
 
 ```
-* Debian
 * Ubuntu
 * Redhat(CentOS/Fedora)
 * Amazon
