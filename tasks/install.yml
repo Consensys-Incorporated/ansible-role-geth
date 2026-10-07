@@ -101,7 +101,7 @@
 
 - name: install | Create a symlink to current
   ansible.builtin.file:
-    src: "{{ geth_install_dir }}/geth-linux-amd64-{{ _geth_version }}-{{ _geth_git_hash }}"
+    src: "{{ geth_install_dir }}/geth-linux-{{ geth_architecture }}-{{ _geth_version }}-{{ _geth_git_hash }}"
     dest: "{{ geth_current_dir }}"
     state: link
   become: true

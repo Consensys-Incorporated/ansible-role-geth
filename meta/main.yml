@@ -13,12 +13,12 @@ galaxy_info:
         - bullseye
     - name: Ubuntu
       versions:
-        - jammy
+        - resolute
         - noble
     - name: Fedora
       versions:
-        - "39"
-        - "40"
+        - "44"
+        - "43"
     - name: EL
       versions:
         - "8"
